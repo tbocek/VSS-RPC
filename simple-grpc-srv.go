@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	schemagrpc "github.com/tbocek/VSS-NEO/simple/go-gen3"
+	schemagrpc "github.com/tbocek/VSS-RPC/go-gen3"
 	"google.golang.org/grpc"
 	"log"
 	"net"
