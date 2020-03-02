@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/golang/protobuf/proto"
-	pb "github.com/tbocek/VSS-NEO/simple/go-gen2"
+	pb "github.com/tbocek/VSS-RPC/go-gen2"
 	"net"
 )
 
