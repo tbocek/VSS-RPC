@@ -21,5 +21,6 @@ func main() {
 	}
 	fmt.Printf("connecting... read: %d, addr: %v, data: %v, decoded: %v\n",
 		n, b2, b[:n], binary.BigEndian.Uint32(b))
-	//binary.LittleEndian.Uint32(b))
+	//fmt.Printf("connecting... read: %d, addr: %v, data: %v, decoded: %v\n",
+	//	n, b2, b[:n], binary.LittleEndian.Uint32(b))
 }
