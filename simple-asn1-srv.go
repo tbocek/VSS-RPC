@@ -8,8 +8,8 @@ import (
 )
 
 type TestASN struct {
-	X *big.Int
-	Y string
+	Code    *big.Int
+	Message string
 }
 
 func main() {
